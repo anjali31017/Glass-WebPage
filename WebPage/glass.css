@@ -1,0 +1,113 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+main {min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 50px;}
+
+.glass{background: white;
+min-height: 80vh;
+width: 60%;
+background: linear-gradient(to right bottom, 
+rgba(255, 255, 255, 0.7), 
+rgba(158, 225, 225, 0.3));
+border-radius: 2rem;
+z-index: 2;
+backdrop-filter: blur(25px);
+display: flex;
+}
+
+.circle1, .circle2 {
+    background:white;
+    background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.8), 
+    rgba(255, 255, 255, 0.3));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1{ top: 3%;
+right: 10%;}
+
+.circle2{bottom: 3%;
+left: 10%;}
+
+.dashboard{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.8), 
+    rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+}
+
+.dashboard .user img {
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid greenyellow;
+}
+
+.dashboard .link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.sideboard{ 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.sideboard .active h1{
+    text-decoration: underline;
+    color:rgb(4, 17, 58);
+    margin-top: 40px;
+}
+
+.sideboard .cards img {
+    float: left;
+    height:100px;
+    width: 100px;
+    border-radius: 2rem;
+    margin: 20px 20px 20px 20px;
+}
+
+.cards {
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-evenly;
+    background : linear-gradient(to left top, rgba(255, 255, 255, 0.5), 
+    rgba(255,255, 255, 0.2));
+}
+
+.sideboard div h2 {
+    position:absolute;
+    right: 25px;
+    margin: 60px;
+    color:rgb(4, 17, 58);
+}
+ 
+
+
+
+
